@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">widgets</string>
+    <string name="text">text</string>
+    <string name="edit_text">edit_text</string>
+    <string name="button_text">button_text</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="milk">milk</string>
+    <string name="sugar">sugar</string>
+    <string name="astronauts">astronauts</string>
+    <string name="cavemen">cavemen</string>
+    <string name="abc">abc</string>
+    <string name="click_me">click_me</string>
+
+
+    <string-array name="spinner_values">
+        <item>light</item>
+        <item>amber</item>
+        c<item>brown</item>
+        <item>dark</item>
+    </string-array>
+
+</resources>

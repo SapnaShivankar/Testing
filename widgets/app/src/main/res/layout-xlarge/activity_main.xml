@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appxbuild.widgets.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="247dp"
+        app:layout_constraintHorizontal_bias="0.051" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text"
+        tools:layout_editor_absoluteY="313dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        tools:layout_editor_absoluteY="23dp"
+        tools:layout_editor_absoluteX="240dp" />
+
+    <ToggleButton android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        tools:layout_editor_absoluteY="308dp"
+        tools:layout_editor_absoluteX="290dp" />
+
+    <Switch
+        android:id="@+id/switch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteX="322dp" />
+
+    <CheckBox android:id="@+id/checkbox_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/milk"
+        android:onClick="onCheckboxClicked"
+        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteX="163dp" />
+
+
+    <CheckBox android:id="@+id/checkbox_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar"
+        android:onClick="onCheckboxClicked"
+        tools:layout_editor_absoluteY="39dp"
+        tools:layout_editor_absoluteX="115dp" />
+
+    <RadioGroup android:id="@+id/radio_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="356dp"
+        tools:layout_editor_absoluteX="200dp">
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_values"
+        tools:layout_editor_absoluteY="243dp"
+        tools:layout_editor_absoluteX="127dp" />
+
+
+    <RadioButton
+        android:id="@+id/radio_astronauts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:text="@string/astronauts"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <RadioButton
+        android:id="@+id/radio_cavemen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:text="@string/cavemen"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+
+    <ScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/abc"
+        android:src="@drawable/abc"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+</android.support.constraint.ConstraintLayout>
