@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Grid Layout</string>
+    <string name="send"> </string>
+    <string name="message"> Message</string>
+    <string name="to">To </string>
+    <string name="to_hint">Hint </string>
+
+</resources>
